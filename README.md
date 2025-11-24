@@ -120,6 +120,7 @@ When you refresh the browser, you should see:
 
 Connected to RDS successfully!
 Welcome to My Website
+
 5. Create Launch Template & Auto Scaling Group
 	1.	In EC2 → Launch templates, create a new template using the working web server instance configuration (including user data if you automated the setup).
 	2.	In EC2 → Auto Scaling Groups → Create Auto Scaling group:
@@ -145,6 +146,7 @@ Now your website will always run on at least two EC2 instances.
 ⸻
 
 🧹 Clean Up (To Avoid Charges)
+
 	1.	Delete Auto Scaling Group and Launch Template.
 	2.	Terminate any remaining EC2 instances.
 	3.	Delete the RDS database (snapshot optional).
