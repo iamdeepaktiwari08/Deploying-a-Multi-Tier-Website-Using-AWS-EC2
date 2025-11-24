@@ -152,5 +152,5 @@ Now your website will always run on at least two EC2 instances.
 	3.	Delete the RDS database (snapshot optional).
 	4.	Delete any custom Security Groups if not used elsewhere.
 	5.	Remove unused Elastic IPs (if allocated).
-  📄 Project PDF: [Download Here](documents/Multi-Tier-Deployment.pdf)
+  📄 Project PDF: In the Documents Folder 
   
