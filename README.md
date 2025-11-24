@@ -88,6 +88,7 @@ Restart Apache:
 sudo systemctl restart apache2
 sudo systemctl enable apache2
 Hit http://<EC2-Public-IP> in your browser to verify PHP is working.
+
 3. Create Amazon RDS MySQL Instance
 	1.	Go to RDS Console → Databases → Create database.
 	2.	Engine: MySQL.
